@@ -7,6 +7,7 @@ import (
 	"gopkg.in/mgo.v2/bson"
 )
 
+//Person defines simple struct
 type Person struct {
 	Name string
 	Age  int
